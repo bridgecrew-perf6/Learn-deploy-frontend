@@ -1,5 +1,5 @@
 export const API = () => {
-  const baseUrl = process.env.SERVICE_URL || 
+  const baseUrl = process.env.SERVER_URL || 
   "https://backend-dumb-merch1.herokuapp.com/api/v1" ||
   "http://localhost:5000/api/v1"
 
